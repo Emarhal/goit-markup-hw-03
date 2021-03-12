@@ -1,0 +1,194 @@
+/* All color of site */
+:root {
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --all-text-color: #757575;
+  --primary-white-color: #ffffff;
+  --primary-black-color: #000000;
+  --contacts-bottom-color: #8f8f94;
+  --footer-background-color: #2f303a;
+}
+body {
+  background-color: var(--primary-white-color);
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+  /* letter-spacing: 0.02em;
+  letter-spacing: 0.06em; */
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/* Общее для кнопки */
+button {
+  cursor: pointer;
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+}
+/* Класс кнопка для студия */
+.btn-studio {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+/* Класс кнопка для портфолио */
+.btn-portfolio {
+  color: var(--title-text-color);
+  /* background-color: #f5f4fa; */
+}
+.btn-portfolio:hover {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+/* Styles for index.html */
+
+/* Header */
+
+/* Logo styles */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo .logo-blue {
+  color: var(--accent-color);
+}
+.logo .logo-black {
+  color: var(--primary-black-color);
+}
+.logo .logo-white {
+  color: var(--primary-white-color);
+}
+/* Navigation */
+.navigation-list .nav-items {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.navigation-list .nav-items:hover,
+.navigation-list .nav-items:focus {
+  color: var(--accent-color);
+}
+.navigation-list .nav-items.current {
+  color: var(--accent-color);
+}
+/* .navigation-list .nav-items:visited {
+  color: tomato;
+} */
+
+/* Contacts Email tel Top */
+.contacts-top .top-items {
+  color: var(--all-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.contacts-top .top-items:hover,
+.contacts-top .top-items:focus {
+  color: var(--accent-color);
+}
+/* Main content */
+
+.banner-section {
+  background-color: var(--footer-background-color);
+}
+.banner-title {
+  color: var(--primary-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* Engage section */
+.title-engage {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.engage-text {
+  color: var(--all-text-color);
+  font-size: 14px;
+  line-height: 1.71;
+}
+.collecting-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+/* Our team */
+.full-name-title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.profession-team {
+  color: var(--all-text-color);
+  font-size: 16px;
+  line-height: 1.19;
+}
+/* Footer */
+
+.footer {
+  background-color: var(--footer-background-color);
+}
+
+.footer-address {
+  color: var(--primary-white-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.contact-bottom .bottom-item {
+  color: var(--contacts-bottom-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.contact-bottom .bottom-item:hover,
+.contact-bottom .bottom-item:focus {
+  color: var(--accent-color);
+}
+/* Styles for portfolio.html */
+
+/* Our work section */
+.our-work-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.our-work-text {
+  color: var(--all-text-color);
+  font-size: 16px;
+  line-height: 1.9;
+}
