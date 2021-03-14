@@ -17,9 +17,19 @@ body {
 }
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 .link {
   text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid tomato;
 }
 /* Общее для кнопки */
 button {
@@ -30,6 +40,8 @@ button {
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
+
+  border-radius: 4px;
 }
 /* Класс кнопка для студия */
 .btn-studio {
@@ -43,12 +55,16 @@ button {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+
+  padding: 10px 32px;
 }
 
 /* Класс кнопка для портфолио */
 .btn-portfolio {
   color: var(--title-text-color);
   /* background-color: #f5f4fa; */
+
+  padding: 6px 22px;
 }
 .btn-portfolio:hover {
   color: var(--primary-white-color);
@@ -57,6 +73,12 @@ button {
 /* Styles for index.html */
 
 /* Header */
+.header-top {
+  display: flex;
+  align-items: center;
+
+  background-color: rgb(106, 168, 148);
+}
 
 /* Logo styles */
 .logo {
@@ -75,12 +97,26 @@ button {
   color: var(--primary-white-color);
 }
 /* Navigation */
+.site-nav {
+  display: flex;
+}
+.site-nav .navigation-list {
+  display: flex;
+}
+.navigation-list li {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .navigation-list .nav-items {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .navigation-list .nav-items:hover,
 .navigation-list .nav-items:focus {
@@ -94,6 +130,9 @@ button {
 } */
 
 /* Contacts Email tel Top */
+.contacts-top {
+  display: flex;
+}
 .contacts-top .top-items {
   color: var(--all-text-color);
   font-style: normal;
@@ -119,6 +158,9 @@ button {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
+  padding: 0;
+  margin: 0;
 }
 
 /* Engage section */
@@ -128,11 +170,17 @@ button {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+
+  padding: 0;
+  margin: 0;
 }
 .engage-text {
   color: var(--all-text-color);
   font-size: 14px;
   line-height: 1.71;
+
+  padding: 0;
+  margin: 0;
 }
 .collecting-title {
   color: var(--title-text-color);
@@ -140,18 +188,30 @@ button {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+
+  padding: 0;
+  margin: 0;
 }
 /* Our team */
+/* .our-team li {
+  display: flex;
+} */
 .full-name-title {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+
+  padding: 0;
+  margin: 0;
 }
 .profession-team {
   color: var(--all-text-color);
   font-size: 16px;
   line-height: 1.19;
+
+  padding: 0;
+  margin: 0;
 }
 /* Footer */
 
@@ -161,10 +221,9 @@ button {
 
 .footer-address {
   color: var(--primary-white-color);
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
 }
 
 .contact-bottom .bottom-item {

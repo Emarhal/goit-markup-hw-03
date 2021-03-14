@@ -8,23 +8,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <!-- Header -->
     <header>
     <!-- Navigation -->
-<nav>
-    <!-- Logo -->
-    <a href="./index.html" class="logo link"><span class="logo-blue">Web</span><span class="logo-black">Studio</span></a>
-    <ul class="navigation-list list">
-        <li><a href="./index.html" class="nav-items link current">Студия</a></li>
-        <li><a href="./portfolio.html" class="nav-items link">Портфолио</a></li>
-        <li><a href="" class="nav-items link">Контакты</a></li>
-    </ul>
-</nav>
-<!-- Contacts Email tel Top -->
-        <ul class="contacts-top list"> 
+    <div class="header-top container">
+        <nav class="site-nav">
+            <!-- Logo -->
+            <a href="./index.html" class="logo link"><span class="logo-blue">Web</span><span
+                    class="logo-black">Studio</span></a>
+            <ul class="navigation-list list">
+                <li><a href="./index.html" class="nav-items link current">Студия</a></li>
+                <li><a href="./portfolio.html" class="nav-items link">Портфолио</a></li>
+                <li><a href="" class="nav-items link">Контакты</a></li>
+            </ul>
+        </nav>
+        <!-- Contacts Email tel Top -->
+        <ul class="contacts-top list">
             <li>
                 <a href="maito:info@devstudio.com" class="top-items link">info@devstudio.com</a>
             </li>
@@ -32,7 +35,7 @@
                 <a href="tel:+380961111111" class="top-items link">+38 096 111 11 11</a>
             </li>
         </ul>
-       
+    </div>
     </header>
     <!-- Main content -->
     <main>
@@ -43,7 +46,7 @@
         </section>
         <!-- Engage section -->
         <section>
-            <ul class="list">
+            <ul class="list container">
                 <li>
                     <h3 class="title-engage">Внимание к деталям</h3>
                     <p class="engage-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -64,7 +67,7 @@
         </section>
         <section>
             <h2 class="collecting-title">Чем мы занимаемся</h2>
-            <ul>
+            <ul class="list container">
                 <li><img width="370" src="./images/prints.jpg" alt="prints"></li>
                 <li><img width="370" src="./images/telephone.jpg" alt="telephone"></li>
                 <li><img width="370" src="./images/hexagon.jpg" alt="hexagon"></li>
@@ -73,7 +76,7 @@
         <!-- Our team -->
         <section>
             <h2 class="collecting-title">Наша команда</h2>
-            <ul class="list">
+            <ul class="list container our-team">
                 <li>
                     <img width="270" src="./images/igor-demianenko.jpg" alt="Игорь Демьяненко">
                     <h3 class="full-name-title">Игорь Демьяненко</h3>
