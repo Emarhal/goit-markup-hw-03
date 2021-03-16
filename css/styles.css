@@ -58,6 +58,8 @@ button {
   text-align: center;
   letter-spacing: 0.06em;
 
+  margin-top: 30px;
+
   padding: 10px 32px;
   position: relative;
   left: 50%;
@@ -158,6 +160,10 @@ button {
   height: 600px;
   background-color: var(--footer-background-color);
 }
+/* .test {
+  margin-top: 200px;
+  outline: 1px solid tomato;
+} */
 .banner-title {
   color: var(--primary-white-color);
   font-weight: 900;
@@ -166,8 +172,11 @@ button {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  
+  align-items: center;
+  padding-top: 200px;
 
-  padding: 0;
+  /* padding: 0; */
   margin: 0;
 }
 
