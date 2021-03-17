@@ -152,7 +152,7 @@ button {
 /* Contacts Email tel Top */
 .contacts-top {
   display: flex;
-  margin-left: 331px;
+  margin-left: auto;
 }
 .contacts-top .item + .item {
   margin-left: 50px;
@@ -209,6 +209,8 @@ margin-left: 30px;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+
+  margin-bottom: 10px;
 }
 .engage-text {
   color: var(--all-text-color);
@@ -241,8 +243,11 @@ margin-left: 30px;
   padding-bottom: 94px;
 }
 .our-team .item {
-  border: 1px solid F5F4FA;
-  background-color: var(--primary-white-color);
+  /* border: 1px solid F5F4FA;
+  background-color: var(--primary-white-color); */
+  background: #FFFFFF;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
 }
 .our-team .item + .item {
   margin-left: 30px;
@@ -253,12 +258,15 @@ margin-left: 30px;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .profession-team {
   color: var(--all-text-color);
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  margin-bottom: 30px;
 }
 /* Footer */
 
@@ -339,7 +347,7 @@ margin-left: 30px;
 } */
 
 .best-work .item {
-  margin-right: 27px;
+  margin-right: 30px;
   margin-bottom: 30px;
 }
 .best-work .item:nth-child(3n) {
@@ -349,8 +357,9 @@ margin-left: 30px;
   margin-bottom: 0;
 }
 .best-work .item {
-  border: 1px solid #eee;
-  background-color: var(--primary-white-color);
+  /* border: 1px solid #eee; */
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background-color: var(--primary-font-color);
 }
 .our-work-title {
   color: var(--title-text-color);
