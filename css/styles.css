@@ -157,13 +157,11 @@ button {
 /* Main content */
 
 .banner-section {
-  height: 600px;
   background-color: var(--footer-background-color);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
-/* .test {
-  margin-top: 200px;
-  outline: 1px solid tomato;
-} */
+
 .banner-title {
   color: var(--primary-white-color);
   font-weight: 900;
@@ -174,7 +172,7 @@ button {
   text-transform: uppercase;
   
   align-items: center;
-  padding-top: 200px;
+  /* padding-top: 200px; */
 
   /* padding: 0; */
   margin: 0;
